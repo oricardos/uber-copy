@@ -6,6 +6,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: #000;
+}
+
 .d-flex {
 	display: flex;
 }
@@ -83,7 +88,7 @@ button.btn-cad {
 
 .main {
 	justify-content: center;
-	background-image: url('../images/main2.jpg');
+	background-image: url('../images/main1.jpg');
 	background-position: cover;
 	background-size: cover;
 	height: 686px;
@@ -156,4 +161,50 @@ button.btn-cad2 {
 	font-size: 15px;
 	border: none;
 	margin-bottom: 20px;
+}
+
+.main2 {
+	justify-content: center;
+	background-image: url('../images/main2.webp');
+	background-position: cover;
+	background-size: cover;
+	height: 686px;
+}
+
+.text2 {
+	display: flex;
+	background-color: transparent;
+	max-width: 525px;
+}
+
+.title2 {
+	padding-top: 40px;
+	margin-left: 65px;
+	margin-bottom: 40px;
+	font-size: 52px;
+	font-weight: bold;
+}
+
+.subtitle2 {
+	margin-left: 65px;
+	margin-bottom: 50px;
+}
+
+.text3 {
+	justify-content: center;
+}
+
+.title3 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 36px;
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+.img_main3 img {
+	margin-top: 20px;
+	margin-left: 60px;
+	width: 490px;
+	height: 330px;
 }
