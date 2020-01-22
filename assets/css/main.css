@@ -190,8 +190,10 @@ button.btn-cad2 {
 	margin-bottom: 50px;
 }
 
-.text3 {
+.main3 {
 	justify-content: center;
+	background-color: #fff;
+	height: 380px;
 }
 
 .title3 {
@@ -208,3 +210,16 @@ button.btn-cad2 {
 	width: 490px;
 	height: 330px;
 }
+
+.main4 {
+	justify-content: center;
+	background-color: #fff;
+	height: 380px;
+}
+
+.card {
+	margin-top: 40px;
+}
+
+
+
