@@ -29,6 +29,10 @@ a.link-body:hover {
 	flex: 1;
 }
 
+.flex2 {
+	flex: 2;
+}
+
 header {
 	background-color: #000;
 	color: #fff;
@@ -39,7 +43,6 @@ header {
 	justify-content: space-between;
 	max-width: 1050px;
 	margin: auto;
-	height: 70px;
 }
 
 .menu1 {
@@ -228,7 +231,7 @@ button.btn-cad2 {
 .main4 {
 	justify-content: center;
 	background-color: #fff;
-	height: 380px;
+	height: 280px;
 }
 
 .card {
@@ -248,5 +251,68 @@ button.btn-cad2 {
 	text-align: left;
 }
 
+.driver, .travel {
+	margin-top: 40px;
+	font-size: 36px;
+	padding-right: 75px;
+}
 
+.driver-text, .travel-text {
+	padding-right: 180px;
+}
 
+footer {
+	background-color: #000;	
+	color: #fff;
+	padding-top: 100px;
+
+}
+
+a.link_footer {
+	color: #fff;
+	transition: all linear 300ms;
+}
+
+a.link_footer:hover {
+	border-bottom: solid 1px #fff;
+}
+
+.footer_link {
+	margin-bottom: 20px;
+}
+
+.logo_footer {
+	font-size:40px;
+	margin-bottom: 30px;
+}
+
+.footer_link_1 {
+	max-width: 200px;
+}
+
+.store_btn {
+	margin-top: 20px;
+}
+
+.apple {
+	margin-right: 30px;
+}
+
+.title_footer {
+	font-weight: bold;
+}
+
+.footer ul {
+	padding: 0;
+}
+
+.footer ul li {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.footer ul li a {
+	font-weight: normal;
+	font-size: 15px;
+}
