@@ -265,7 +265,10 @@ footer {
 	background-color: #000;	
 	color: #fff;
 	padding-top: 100px;
+}
 
+.footer {
+	border-bottom: solid 1px #888;
 }
 
 a.link_footer {
@@ -302,7 +305,7 @@ a.link_footer:hover {
 	font-weight: bold;
 }
 
-.footer ul {
+.footer ul, .final-social ul {
 	padding: 0;
 }
 
@@ -315,4 +318,38 @@ a.link_footer:hover {
 .footer ul li a {
 	font-weight: normal;
 	font-size: 15px;
+}
+
+.footer3 {
+	margin-bottom: 100px;
+}
+
+.final {
+	margin-top: 30px;
+	padding-bottom: 80px;
+}
+
+.final-text {
+	font-size: 13px;
+	text-align: left;
+	padding-right: 50px;
+}
+
+.final-link {
+	text-align: center;
+	justify-content: space-between;
+	font-size: 13px;
+}
+
+.final-social {
+	justify-content: flex-end;
+}
+
+.final-social ul {
+	margin-top: 0;
+}
+
+.final-social ul li {	
+	margin-left: 25px;
+	margin-top: 0
 }
