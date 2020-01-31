@@ -104,7 +104,7 @@ button.btn-cad {
 	background-image: url('../images/main1.jpg');
 	background-position: cover;
 	background-size: cover;
-	height: 686px;
+	height: 100vh;
 }
 
 nav.main_nav {
