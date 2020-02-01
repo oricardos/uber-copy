@@ -353,3 +353,9 @@ a.link_footer:hover {
 	margin-left: 25px;
 	margin-top: 0
 }
+
+@media (max-width: 450px) {
+	.text3 {
+		flex-direction: column;
+	}
+}
