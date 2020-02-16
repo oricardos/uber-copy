@@ -9,10 +9,10 @@ body {
 a {
 	text-decoration: none;
 	color: #000;
+	font-weight: 600;
 }
 
 a.link-body {
-	border-bottom: solid 1px #888;
 	transition: all linear 300ms;
 }
 
@@ -43,6 +43,7 @@ header {
 	justify-content: space-between;
 	max-width: 1050px;
 	margin: auto;
+	margin-top: 0;
 }
 
 .menu1 {
@@ -100,7 +101,8 @@ button.btn-cad {
 }
 
 .main {
-	justify-content: center;
+	flex-direction: column;
+	justify-content: flex-start;
 	background-image: url('../images/main1.jpg');
 	background-position: cover;
 	background-size: cover;
@@ -144,6 +146,7 @@ nav.main_nav {
 
 .container {
 	width: 400px;
+	padding-bottom: 40px;
 	margin: auto;
 }
 
@@ -160,20 +163,20 @@ nav.main_nav {
 	font-weight: bold;
 }
 
-.subtitle {
-	margin-bottom: 50px;
+a.link-body {
+	margin-bottom: 80px;
 }
 
-button.btn-cad2 {
-	width: 200px;
-	height: 45px;
+a.btn-cad2 {
+	display: block;
 	padding: 8px;
+	width: auto;
+	height: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
 	background-color: #000;
 	color: #fff;
-	font-weight: bold;
-	font-size: 15px;
-	border: none;
-	margin-bottom: 20px;
+	text-align: center;
 }
 
 .main2 {
@@ -354,8 +357,208 @@ a.link_footer:hover {
 	margin-top: 0
 }
 
+.mobile-only {
+	display: none;
+}
+
 @media (max-width: 450px) {
-	.text3 {
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.mobile-only {
+		display: block;
+	}
+
+	body {
+		max-width: 380px;
+		margin: auto;
+	}
+	header {
+		width: 100vw;
+		height: 50px;
+		padding: 0;
+	}
+	.logo {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+
+	.menu2 {
+		margin-top: 5px;
+		margin-left: 50px;
+	}
+
+	.d-none {
+		display: none;
+	}
+
+	.menu-mobile {
+		display: block;
+		margin-right: 20px;
+		margin-top: 15px;
+	}
+
+	.menu-mobile img, .menu-mobile2 img {
+		height: 20px;
+		width: 20px;
+	}
+
+	.menu-mobile2 {
+		width: 40px;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.main {
+		background: #fff;
+		height: calc(100vh - 50px);
+	}
+
+	.section-mobile {
+		margin: 0;
+		justify-content: center;
+		background-image: url('../images/main1.jpg');
+		background-position: cover;
+		background-size: cover;
+		height: 300px;
+	}
+
+	.text {
+		margin-bottom: 40px;
+	}
+
+	a.btn-cad2 {
+		display: block;
+		margin-top: 20px;
+		padding: 10px;
+		width: 200px;
+	}
+
+	.subtitle, a.link-body {
+		max-width: 280px;
+	}
+
+	.title, .title2, .title3 {
+		font-size: 32px;
+	}
+
+	.main2 {
+		justify-content: center;
+		background-image: url('../images/main2.webp');
+		background-position: top;
+		background-size: cover;
+		height: 100vh;
+	}
+
+	.subtitle, .subtitle2, .subtitle3, .card {
+		margin-left: 0;
+		padding-left: 40px;
+	}
+
+	.title, .title2 {
+		margin-left: 0;
+		padding: 24px 40px;
+		margin-bottom: 10px;
+	}
+
+	.container a.btn-cad2 {
+		display: block;
+		padding: 0;
+		width: 150px;
+		height: 20px;
+		margin-left: 40px;
+	}
+
+	.title3 {
+		margin-left: 0;
+		padding: 24px 40px;
 		flex-direction: column;
+	}
+
+	.text3 a.link-body {
+		padding-left: 40px;
+	}
+
+	.main3-mobile {
+		flex-direction: column;
+	}
+
+	.img_main3 {
+		max-width: 380px;
+		margin: auto;
+	}
+
+	.img_main3 img {
+		display: block;
+		height: 200px;
+		width: 260px;
+		margin: 0;
+	}
+
+	.main4 {
+		margin-top: 250px;
+	}
+
+	.card-mobile, .driver-mobile{
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+
+	.driver-mobile {
+		padding: 24px 40px;
+		margin-bottom: 10px;
+
+	}
+
+	.main4 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.driver-text, .travel-text {
+		font-size: 28px;
+		padding-right: 50px;
+	}
+
+	/* section .section-mobile {
+		margin-top: 50px;
+	} */
+	footer {
+		margin-top: 50px;
+	}
+	.footer {
+		flex-direction: column;
+	}
+
+	.footer .logo_footer {
+		padding-top: none;
+	}
+
+	.footer1, .footer2, .footer3 {
+		padding-left: 24px;
+		margin-bottom: 40px;
+	}
+
+	.main_footer {
+		padding-left: 10px;
+	}
+
+	.title_footer {
+		font-size: 18px;
+	}
+
+	.final, .final-link {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.final-text, .final-link {
+		text-align: center;
+		padding: 5px;
+		margin-bottom: 20px;
 	}
 }
